@@ -1,1 +1,5 @@
-<blockquote>--distributed-even-if-your-workflow-isnt</blockquote>
+####Centralized vs Distributed
+![distributed](img/death-star.jpg)
+![distributed](img/x-wings.jpg)
+
+

@@ -1,5 +1,130 @@
 [
     "index.md",
     "history.md",
-    "distributed.md"
+    "distributed.md",
+    "distributed-2.md",
+    "distributed-3.md",
+    {
+        "filename": "branching-1.md",
+        "attr": {
+            "data-background": "img/branching.jpg"
+        }
+    },
+    "branching-2-master.md",
+    [
+        {
+            "filename": "workflow01.md",
+            "attr": {
+                "data-background-transition": "slide",
+                "data-transition": "none"
+            }
+        },
+        {
+            "filename": "workflow02.md",
+            "attr": {
+                "data-background-transition": "slide",
+                "data-transition": "none"
+            }
+        },
+        {
+            "filename": "workflow03.md",
+            "attr": {
+                "data-background-transition": "slide",
+                "data-transition": "none"
+            }
+        },
+        {
+            "filename": "workflow04.md",
+            "attr": {
+                "data-background-transition": "slide",
+                "data-transition": "none"
+            }
+        },
+        {
+            "filename": "workflow05.md",
+            "attr": {
+                "data-background-transition": "slide",
+                "data-transition": "none"
+            }
+        },
+        {
+            "filename": "workflow06.md",
+            "attr": {
+                "data-background-transition": "slide",
+                "data-transition": "none"
+            }
+        },
+        {
+            "filename": "workflow07.md",
+            "attr": {
+                "data-background-transition": "slide",
+                "data-transition": "none"
+            }
+        },
+        {
+            "filename": "workflow08.md",
+            "attr": {
+                "data-background-transition": "slide",
+                "data-transition": "none"
+            }
+        },
+        {
+            "filename": "workflow09.md",
+            "attr": {
+                "data-background-transition": "slide",
+                "data-transition": "none"
+            }
+        },
+        {
+            "filename": "workflow10.md",
+            "attr": {
+                "data-background-transition": "slide",
+                "data-transition": "none"
+            }
+        },
+        {
+            "filename": "workflow11.md",
+            "attr": {
+                "data-background-transition": "slide",
+                "data-transition": "none"
+            }
+        },
+        {
+            "filename": "workflow12.md",
+            "attr": {
+                "data-background-transition": "slide",
+                "data-transition": "none"
+            }
+        }
+    ],
+    {
+        "filename": "everything-is-local.md",
+        "attr": {
+            "data-background-transition": "slide",
+            "data-transition": "fade",
+            "data-background": "darkcyan"
+        }
+    },
+    {
+        "filename": "everything-is-local-2.md",
+        "attr": {
+            "data-background-transition": "slide",
+            "data-transition": "none",
+            "data-background": "darkcyan"
+        }
+    },
+    {
+        "filename": "staging-area.md",
+        "attr": {
+            "data-background": "img/stage.jpg"
+        }
+    },
+    "staging-area-2.md",
+    "tools.md",
+    "github.md",
+    "github-ui.md",
+    "git-clone.md",
+    "git-clone-2.md",
+    "pull-request-1.md",
+    "pull-request-2.md"
 ]
