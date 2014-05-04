@@ -1,3 +1,3 @@
-##  Cloning is fun
+###  Cloning is fun
 
-![](img/clones.jpg)
+<img src="img/clones.jpg" alt="clone dance" class="no-border">

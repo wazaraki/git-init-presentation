@@ -146,3 +146,17 @@ body {
  *********************************************/
 .reveal .slide-number {
   color: #13daec; }
+
+.reveal section img.no-border {
+  background: transparent;
+  border: none;
+  box-shadow: none; }
+
+.reveal section img.round {
+  background: transparent;
+  border: 4px solid #e3e2e1;
+  border-radius: 9999px;
+  box-shadow: none; }
+
+.reveal section img.expand {
+  width: 90%; }

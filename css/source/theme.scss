@@ -55,3 +55,19 @@ $heading1TextShadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b
 
 // See ../../bower_components/reveal.js/css/theme/README.md
 // for further explanations on how reveal.js themes work.
+.reveal section img.no-border {
+  background: transparent;
+  border: none;
+  box-shadow: none;
+}
+
+.reveal section img.round {
+  background: transparent;
+  border: 4px solid #e3e2e1;
+  border-radius: 9999px;
+  box-shadow: none;
+}
+
+.reveal section img.expand {
+  width: 90%;
+}

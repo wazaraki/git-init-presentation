@@ -1,11 +1,3 @@
 
-Git Init
-=========
-![LogoGeek](img/geeklabs_fdo_negro.png)
-<!-- From the terminal, pop in: -->
-
-<!--   ```yo reveal:slide "Slide Title"``` -->
-<!-- Available options:
-
- ```--markdown --attributes --notes```
- -->
+# Git Init
+<img src="img/geeklabs_fdo_negro.png" alt="logo geek" class="no-border">

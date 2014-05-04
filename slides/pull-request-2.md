@@ -1,1 +1,1 @@
-![](img/gitflow-workflow-pull-request.png)
+<img src="img/gitflow-workflow-pull-request.png" alt="pullrequest" class="no-border expand">

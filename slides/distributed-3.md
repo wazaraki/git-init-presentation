@@ -1,3 +1,3 @@
-#### Example workflow
+### Example workflow
 
-![workflow](img/integration-workflow.png)
+<img src="img/integration-workflow.png" alt="wf" class="no-border">

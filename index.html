@@ -54,6 +54,14 @@
                 
                     
                         
+    <section data-background="img/luke.jpg" ></section>
+
+
+                    
+                    
+                
+                    
+                        
     <section data-markdown="slides/distributed.md"></section>
 
 
@@ -161,22 +169,6 @@
                 
                     
                         
-    <section data-background-transition="slide" data-transition="fade" data-background="darkcyan" data-markdown="slides/everything-is-local.md"></section>
-
-
-                    
-                    
-                
-                    
-                        
-    <section data-background-transition="slide" data-transition="none" data-background="darkcyan" data-markdown="slides/everything-is-local-2.md"></section>
-
-
-                    
-                    
-                
-                    
-                        
     <section data-background="img/stage.jpg" data-markdown="slides/staging-area.md"></section>
 
 
@@ -185,7 +177,23 @@
                 
                     
                         
-    <section data-markdown="slides/staging-area-2.md"></section>
+    <section data-background-transition="slide" data-transition="fade" data-background="#800" data-markdown="slides/everything-is-local.md"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-background-transition="slide" data-transition="none" data-background="#800" data-markdown="slides/everything-is-local-2.md"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-background-transition="slide" data-transition="fade" data-background="#800" data-markdown="slides/staging-area-2.md"></section>
 
 
                     
@@ -194,6 +202,14 @@
                     
                         
     <section data-markdown="slides/tools.md"></section>
+
+
+                    
+                    
+                
+                    
+                        
+    <section data-markdown="slides/gitk.md"></section>
 
 
                     
@@ -247,6 +263,31 @@
                     
                     
                 
+                    
+                    
+                        <section>
+                            
+                                
+    <section data-transition="linear" data-background="img/darth-vader.jpg" ></section>
+
+
+                            
+                                
+    <section data-transition="linear" data-background="img/darth-vader-blurred.jpg" data-markdown="slides/questions.md"></section>
+
+
+                            
+                        </section>
+                    
+                
+                    
+                        
+    <section data-background="#414a5e" data-markdown="slides/info.md"></section>
+
+
+                    
+                    
+                
             </div>
 
         </div>
@@ -266,8 +307,16 @@
                 theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
                 transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
 
+                multiplex: {
+                    secret: '13992310747055551338', // Obtained from the socket.io server.
+                    id: '35cabb402a65218e', // Obtained from socket.io server
+                    url: 'revealjs.jit.su:80' // Location of socket.io server
+                },
+
                 // Optional libraries used to extend on reveal.js
                 dependencies: [
+                    { src: '//cdnjs.cloudflare.com/ajax/libs/socket.io/0.9.10/socket.io.min.js', async: true },
+                    { src: 'bower_components/reveal.js/plugin/multiplex/master.js', async: true },
                     { src: 'bower_components/reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
                     { src: 'bower_components/reveal.js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
                     { src: 'bower_components/reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },

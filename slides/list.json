@@ -1,6 +1,11 @@
 [
     "index.md",
     "history.md",
+    {
+        "attr": {
+            "data-background": "img/luke.jpg"
+        }
+    },
     "distributed.md",
     "distributed-2.md",
     "distributed-3.md",
@@ -98,11 +103,17 @@
         }
     ],
     {
+        "filename": "staging-area.md",
+        "attr": {
+            "data-background": "img/stage.jpg"
+        }
+    },
+    {
         "filename": "everything-is-local.md",
         "attr": {
             "data-background-transition": "slide",
             "data-transition": "fade",
-            "data-background": "darkcyan"
+            "data-background": "#800"
         }
     },
     {
@@ -110,21 +121,44 @@
         "attr": {
             "data-background-transition": "slide",
             "data-transition": "none",
-            "data-background": "darkcyan"
+            "data-background": "#800"
         }
     },
     {
-        "filename": "staging-area.md",
+        "filename": "staging-area-2.md",
         "attr": {
-            "data-background": "img/stage.jpg"
+            "data-background-transition": "slide",
+            "data-transition": "fade",
+            "data-background": "#800"
         }
     },
-    "staging-area-2.md",
     "tools.md",
+    "gitk.md",
     "github.md",
     "github-ui.md",
     "git-clone.md",
     "git-clone-2.md",
     "pull-request-1.md",
-    "pull-request-2.md"
+    "pull-request-2.md",
+    [
+        {
+          "attr": {
+            "data-transition": "linear",
+            "data-background": "img/darth-vader.jpg"
+          }
+        },
+        {
+          "filename": "questions.md",
+          "attr": {
+            "data-transition": "linear",
+            "data-background": "img/darth-vader-blurred.jpg"
+          }
+        }
+    ],
+    {
+        "filename": "info.md",
+        "attr": {
+            "data-background": "#414a5e"
+        }
+    }
 ]

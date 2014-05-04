@@ -1,3 +1,3 @@
-##  Fetch & Merge (Pull)
+###  Fetch & Merge (Pull)
 
-![local](img/everything-local2.png)
+<img src="img/everything-local2.png" alt="local2" class="no-border">
