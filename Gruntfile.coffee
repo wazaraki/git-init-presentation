@@ -14,6 +14,7 @@ module.exports = (grunt) ->
                     'slides/*.html'
                     'js/*.js'
                     'css/*.css'
+                    'img/**'
                 ]
 
             index:
@@ -31,7 +32,7 @@ module.exports = (grunt) ->
             jshint:
                 files: ['js/*.js']
                 tasks: ['jshint']
-        
+
             sass:
                 files: ['css/source/theme.scss']
                 tasks: ['sass']
@@ -41,7 +42,7 @@ module.exports = (grunt) ->
             theme:
                 files:
                     'css/theme.css': 'css/source/theme.scss'
-        
+
         connect:
 
             livereload:
@@ -79,6 +80,7 @@ module.exports = (grunt) ->
                         'bower_components/**'
                         'js/**'
                         'css/*.css'
+                        'img/**'
                     ]
                     dest: 'dist/'
                 },{
